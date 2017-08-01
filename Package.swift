@@ -13,10 +13,10 @@ let package = Package(
     ],
     dependencies: [
     // Crypto
-    .Package(url: "https://github.com/vapor/crypto.git", majorVersion: 2),
+    .Package(url: "https://github.com/bytethenoodle/crypto.git", majorVersion: 2),
 
     // Secure Sockets
-    .Package(url: "https://github.com/vapor/tls.git", majorVersion: 2),
+    .Package(url: "https://github.com/bytethenoodle/tls.git", majorVersion: 2),
     ],
     exclude: [
         "Sources/Performance"
